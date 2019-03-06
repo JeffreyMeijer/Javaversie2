@@ -4,7 +4,10 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		int hoevaak = Integer.parseInt(args[0]);
-		System.out.print(fibonacci(hoevaak));
+		for (int i = 0; i < hoevaak; i++) {
+			System.out.print(fibonacci(i) + "\t");
+		}
+		//System.out.print(fibonacci(hoevaak));
 	}
 	public static int fibonacci(int hoevaak) {
 		if(hoevaak == 0) {
