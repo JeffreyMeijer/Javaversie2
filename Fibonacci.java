@@ -7,7 +7,6 @@ public class Fibonacci {
 		for (int i = 0; i < hoevaak; i++) {
 			System.out.print(fibonacci(i) + "\t");
 		}
-		//System.out.print(fibonacci(hoevaak));
 	}
 	public static int fibonacci(int hoevaak) {
 		if(hoevaak == 0) {
